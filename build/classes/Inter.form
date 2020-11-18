@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="42" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="45325435435"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="66" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x412;&#x432;&#x43e;&#x434;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x412;&#x432;&#x43e;&#x434;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="Obzor" max="32767" attributes="0"/>
+                          <Component id="obzor" max="32767" attributes="0"/>
+                          <Component id="obzorjanr" max="32767" attributes="0"/>
+                          <Component id="obzorkas" max="32767" attributes="0"/>
+                          <Component id="obzorkli" pref="85" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="newkas" alignment="0" max="32767" attributes="0"/>
+                          <Component id="newjanr" alignment="0" max="32767" attributes="0"/>
+                          <Component id="novayadoljnost" alignment="0" pref="276" max="32767" attributes="0"/>
+                          <Component id="nobyisotrydnik" alignment="0" max="32767" attributes="0"/>
+                          <Component id="newklient" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="izmena" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="delS" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="izmenakli" min="-2" max="-2" attributes="0"/>
+                                  <Component id="izmenakas" min="-2" max="-2" attributes="0"/>
+                                  <Component id="izmenajanra" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="izmenadoljnost" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="delcas" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="delkli" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="deljanr" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="delD" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="10" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="clear" min="-2" max="-2" attributes="0"/>
+                              <Component id="clearD" min="-2" max="-2" attributes="0"/>
+                              <Component id="clearkas" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="klearklient" min="-2" max="-2" attributes="0"/>
+                          <Component id="clearjanr" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="Obzor" alignment="1" pref="68" max="32767" attributes="0"/>
+                          <Component id="clear" alignment="0" max="32767" attributes="0"/>
+                          <Component id="nobyisotrydnik" alignment="1" max="32767" attributes="0"/>
+                          <Component id="delS" alignment="1" max="32767" attributes="0"/>
+                          <Component id="izmena" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="obzor" alignment="0" max="32767" attributes="0"/>
+                          <Component id="novayadoljnost" alignment="0" max="32767" attributes="0"/>
+                          <Component id="clearD" pref="80" max="32767" attributes="0"/>
+                          <Component id="delD" alignment="0" max="32767" attributes="0"/>
+                          <Component id="izmenadoljnost" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="newjanr" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
+                              <Component id="obzorjanr" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="izmenajanra" alignment="0" pref="83" max="32767" attributes="0"/>
+                          <Component id="deljanr" alignment="0" max="32767" attributes="0"/>
+                          <Component id="clearjanr" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="delcas" alignment="0" pref="87" max="32767" attributes="0"/>
+                          <Component id="izmenakas" alignment="0" max="32767" attributes="0"/>
+                          <Component id="obzorkas" alignment="0" max="32767" attributes="0"/>
+                          <Component id="newkas" alignment="0" max="32767" attributes="0"/>
+                          <Component id="clearkas" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="obzorkli" alignment="0" max="32767" attributes="0"/>
+                          <Component id="klearklient" alignment="0" pref="84" max="32767" attributes="0"/>
+                          <Component id="delkli" alignment="1" max="32767" attributes="0"/>
+                          <Component id="izmenakli" alignment="1" max="32767" attributes="0"/>
+                          <Component id="newklient" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="nobyisotrydnik">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41d;&#x43e;&#x432;&#x44b;&#x439; &#x441;&#x43e;&#x442;&#x440;&#x443;&#x434;&#x43d;&#x438;&#x43a;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nobyisotrydnikActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="novayadoljnost">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41d;&#x43e;&#x432;&#x430;&#x44f; &#x434;&#x43e;&#x43b;&#x434;&#x436;&#x43d;&#x43e;&#x441;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="novayadoljnostActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="newjanr">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41d;&#x43e;&#x432;&#x44b;&#x439; &#x436;&#x430;&#x43d;&#x440;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newjanrActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="newkas">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41d;&#x43e;&#x432;&#x430;&#x44f; &#x43a;&#x430;&#x441;&#x435;&#x442;&#x430;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newkasActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="newklient">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41d;&#x43e;&#x432;&#x44b;&#x439; &#x43a;&#x43b;&#x438;&#x435;&#x43d;&#x442;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newklientActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="clear">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x41e;&#x447;&#x438;&#x441;&#x442;&#x438;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="izmena">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x418;&#x437;&#x43c;&#x435;&#x43d;&#x438;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="izmenaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Obzor">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41e;&#x431;&#x437;&#x43e;&#x440;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ObzorActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="obzor">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41e;&#x431;&#x437;&#x43e;&#x440;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="obzorActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="obzorjanr">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41e;&#x431;&#x437;&#x43e;&#x440;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="obzorjanrActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="obzorkas">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41e;&#x431;&#x437;&#x43e;&#x440;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="obzorkasActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="obzorkli">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41e;&#x431;&#x437;&#x43e;&#x440;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="obzorkliActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="izmenadoljnost">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x418;&#x437;&#x43c;&#x435;&#x43d;&#x438;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="izmenadoljnostActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="clearD">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x41e;&#x447;&#x438;&#x441;&#x442;&#x438;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearDActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="izmenajanra">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x418;&#x437;&#x43c;&#x435;&#x43d;&#x438;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="izmenajanraActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="clearjanr">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x41e;&#x447;&#x438;&#x441;&#x442;&#x438;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearjanrActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="izmenakas">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x418;&#x437;&#x43c;&#x435;&#x43d;&#x438;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="izmenakasActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="clearkas">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x41e;&#x447;&#x438;&#x441;&#x442;&#x438;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearkasActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="izmenakli">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x418;&#x437;&#x43c;&#x435;&#x43d;&#x438;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="izmenakliActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="klearklient">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x41e;&#x447;&#x438;&#x441;&#x442;&#x438;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="klearklientActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="delS">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x443;&#x434;&#x430;&#x43b;&#x438;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="delSActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="delD">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x443;&#x434;&#x430;&#x43b;&#x438;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="delDActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="deljanr">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x443;&#x434;&#x430;&#x43b;&#x438;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deljanrActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="delcas">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x443;&#x434;&#x430;&#x43b;&#x438;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="delcasActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="delkli">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x443;&#x434;&#x430;&#x43b;&#x438;&#x442;&#x44c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="delkliActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x417;&#x430;&#x43f;&#x440;&#x43e;&#x441;&#x44b;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x417;&#x430;&#x43f;&#x440;&#x43e;&#x441;&#x44b;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jButton3" max="32767" attributes="0"/>
+                          <Component id="Caset" max="32767" attributes="0"/>
+                          <Component id="jButton1" pref="292" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jComboBox11" max="32767" attributes="0"/>
+                          <Component id="jComboBox22" max="32767" attributes="0"/>
+                          <Component id="jComboBox33" pref="336" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jComboBox11" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton1" min="-2" pref="150" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Caset" min="-2" pref="151" max="-2" attributes="0"/>
+                          <Component id="jComboBox22" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButton3" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="jComboBox33" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="16" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JComboBox" name="jComboBox11">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="&#x41d;&#x435;&#x442; &#x444;&#x438;&#x43b;&#x44c;&#x442;&#x440;&#x430;"/>
+                    <StringItem index="1" value="&#x421;&#x43e;&#x442;&#x440;&#x443;&#x434;&#x43d;&#x438;&#x43a;&#x438; &#x43e;&#x442;&#x434;&#x435;&#x43b;&#x44c;&#x43d;&#x44b;&#x445; &#x434;&#x43e;&#x43b;&#x436;&#x43d;&#x43e;&#x441;&#x442;&#x435;&#x439;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41e;&#x442;&#x434;&#x435;&#x43b; &#x43a;&#x430;&#x434;&#x440;&#x43e;&#x432;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Caset">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41a;&#x430;&#x441;&#x441;&#x435;&#x442;&#x44b;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CasetActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41a;&#x430;&#x441;&#x441;&#x435;&#x442;&#x44b;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox22">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="&#x41d;&#x435;&#x442; &#x444;&#x438;&#x43b;&#x44c;&#x442;&#x440;&#x430;"/>
+                    <StringItem index="1" value="&#x41e;&#x442;&#x43e;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43d;&#x438;&#x435; &#x43a;&#x430;&#x441;&#x441;&#x435;&#x442; &#x43e;&#x442;&#x434;&#x435;&#x43b;&#x44c;&#x43d;&#x44b;&#x445; &#x436;&#x430;&#x43d;&#x440;&#x43e;&#x432;"/>
+                    <StringItem index="2" value="&#x41e;&#x442;&#x43e;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43d;&#x438;&#x435; &#x43a;&#x430;&#x441;&#x441;&#x435;&#x442; &#x437;&#x430; &#x43e;&#x442;&#x434;&#x435;&#x43b;&#x44c;&#x43d;&#x44b;&#x435; &#x433;&#x43e;&#x434;&#x44b;"/>
+                    <StringItem index="3" value="&#x43e;&#x442;&#x43e;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43d;&#x438;&#x435; &#x441; &#x43e;&#x43f;&#x440;&#x435;&#x434;&#x435;&#x43b;&#x435;&#x43d;&#x43d;&#x44b;&#x43c;&#x438; &#x430;&#x43a;&#x442;&#x435;&#x440;&#x430;&#x43c;&#x438;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox33">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="&#x41d;&#x435;&#x442; &#x444;&#x438;&#x43b;&#x44c;&#x442;&#x440;&#x430;"/>
+                    <StringItem index="1" value="&#x43e;&#x442;&#x43e;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43d;&#x438;&#x44f; &#x43a;&#x430;&#x441;&#x441;&#x435;&#x442; &#x43d;&#x430; &#x440;&#x443;&#x43a;&#x430;&#x445; &#x43e;&#x43f;&#x440;&#x435;&#x434;&#x435;&#x43b;&#x43d;&#x43d;&#x44b;&#x445; &#x43a;&#x43b;&#x438;&#x435;&#x43d;&#x442;&#x43e;&#x432;"/>
+                    <StringItem index="2" value="&#x43e;&#x442;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43d;&#x438;&#x435; &#x43e;&#x43f;&#x43b;&#x430;&#x447;&#x435;&#x43d;&#x43d;&#x44b;&#x445; &#x438; &#x43d;&#x435; &#x43e;&#x43f;&#x43b;&#x430;&#x447;&#x435;&#x43d;&#x43d;&#x44b;&#x445; &#x43a;&#x430;&#x441;&#x441;&#x435;&#x442;"/>
+                    <StringItem index="3" value="&#x43e;&#x442;&#x43e;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43d;&#x438;&#x435; &#x441;&#x434;&#x430;&#x43d;&#x43d;&#x44b;&#x445; &#x438; &#x43d;&#x435; &#x441;&#x434;&#x430;&#x43d;&#x43d;&#x44b;&#x445; &#x43a;&#x430;&#x441;&#x441;&#x435;&#x442;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
